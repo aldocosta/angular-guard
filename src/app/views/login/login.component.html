@@ -1,0 +1,23 @@
+
+<div class="login-component">
+  <form>
+    <div class="form-group">
+      <label for="formGroupExampleInput">Login</label>
+      <input name='txtlogin' type="text" class="form-control" id="formGroupExampleInput" [(ngModel)]='login.login'
+       placeholder="Login">
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput2">Senha</label>
+      <input name='txtpass' [(ngModel)]='login.password' type="password" class="form-control" id="formGroupExampleInput2" placeholder="Senha">
+    </div>
+    <div class="form-group">
+      <button class="btn btn-primary" (click)='doLogin()'>
+        Login
+      </button>
+      <button class="btn" >
+          Cancell
+        </button>
+    </div>    
+  </form>
+</div>
+

@@ -1,0 +1,9 @@
+.login-component{
+    width: 66%;
+    margin: 0 auto;
+}
+
+.login-component .btn{
+    width:125px;
+    margin:5px;
+}
